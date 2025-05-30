@@ -88,7 +88,7 @@ socket.on('createPoll', (pollData) => {
     socket.on('disconnect', () => {
         console.log(`User disconnected: ${socket.id}`);
     });
-});
+}); 
 
 
 const PORT = process.env.PORT || 5000;
